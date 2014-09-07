@@ -22,9 +22,9 @@
 #include <functional>
 
 #ifdef   FP_DEFINE
-#include <myserializer/myserializer.hpp>
+#include <shasa/shasa.h>
 namespace fp {
-    using myserializer::print;
+    using shasa::print;
 }
 #endif
 
